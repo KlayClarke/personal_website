@@ -7,13 +7,11 @@ export default function About() {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-4">
           <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-black">
-              About
-            </p>
+            <p className="text-4xl font-bold inline">About</p>
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full px-4 grid md:grid-cols-2 gap-4">
+        <div className="max-w-[1000px] w-full px-4 grid lg:grid-cols-2 gap-4">
           <div>
             <p className="text-4xl">
               My technological interests derived somewhat unconventionally:
