@@ -13,8 +13,14 @@
     @apply px-4;
     @apply cursor-pointer;
   }
+
+  div[name="portfolio"] p.project-toggle.active,
+  .project-links {
+    @apply border-2 border-black;
+  }
 }
 
+/* styles for about component */
 div[name="about"] a.music-production-software-links {
   background-color: orange;
   padding: 5px;
@@ -31,4 +37,24 @@ div[name="about"] a.data-science-software-links {
 
 div[name="about"] a.data-science-software-links:hover {
   text-decoration: underline;
+}
+
+/* styles for portfolio component */
+div[name="portfolio"] p.project-toggle {
+  padding: 10px;
+}
+
+div[name="portfolio"] p.project-toggle.active {
+  background-color: plum;
+
+  color: white;
+}
+
+div[name="portfolio"] a.project-links {
+  padding: 10px;
+}
+
+div[name="portfolio"] a.project-links:hover {
+  background-color: plum;
+  color: white;
 }
