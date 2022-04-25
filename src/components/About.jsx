@@ -1,9 +1,6 @@
 export default function About() {
   return (
-    <div
-      name="about"
-      className="w-full h-screen bg-white text-black border-b-2"
-    >
+    <div name="about" className="w-full h-screen bg-white text-black">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-4">
           <div className="pb-8">
@@ -21,15 +18,46 @@ export default function About() {
             <p className="text-2xl">
               While in college, I began producing music - both as a means of
               escape and creative expression. The learning curve was steep, but
-              music production software such as Ableton and Logic Pro X use AI
-              to assist users, making it rather easy for beginners to get
+              music production software such as{" "}
+              <a
+                href="https://www.ableton.com/en/"
+                target={"_blank"}
+                className="music-production-software-links"
+              >
+                Ableton
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://www.apple.com/logic-pro/"
+                target={"_blank"}
+                className="music-production-software-links"
+              >
+                Logic Pro X
+              </a>{" "}
+              use AI to assist users, making it rather easy for beginners to get
               started.
             </p>
             <br />
             <p className="text-2xl">
-              I'd also fell in love with Stata and R, statistical software that
-              helped me analyze and manipulate data while serving as a novice
-              research assistant in UConn's Sociology Department.
+              I'd also fell in love with{" "}
+              <a
+                href="https://www.stata.com/"
+                target={"_blank"}
+                className="data-science-software-links"
+              >
+                Stata
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://www.r-project.org/"
+                target={"_blank"}
+                className="data-science-software-links"
+              >
+                R
+              </a>{" "}
+              , statistical software that helped me analyze and manipulate data
+              while serving as a novice research assistant in UConn's Sociology
+              Department.
             </p>
             <br />
             <p className="text-2xl">
