@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function Home() {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
@@ -11,15 +13,16 @@ export default function Home() {
         </h2>
         <p className="text-2xl text-[#8289a0] py-4 max-w-[1000px]">
           Klay is a web developer who enjoys learning, trying, and failing until
-          he succeeds. When not debugging code, Klay is likely producing
-          horrible music (growth is gradual). Currently focused on building web
-          applications, he one day hopes to contribute to the software that make
-          modern music production possible.
+          he succeeds. Currently focused on building web applications, he one
+          day hopes to contribute to the software that make modern music
+          production possible.
         </p>
         <div>
-          <button className="text-white border-2 px-10 py-3 my-3 hover:bg-white hover:border-white hover:text-black">
-            View Portfolio
-          </button>
+          <Link to="portfolio" smooth={true} duration={2000}>
+            <button className="text-white border-2 px-10 py-3 my-3 hover:bg-white hover:border-white hover:text-black">
+              View Portfolio
+            </button>
+          </Link>
         </div>
       </div>
     </div>
