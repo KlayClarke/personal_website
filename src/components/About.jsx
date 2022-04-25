@@ -34,8 +34,8 @@ export default function About() {
               >
                 Logic Pro X
               </a>{" "}
-              use AI to assist users, making it rather easy for beginners to get
-              started.
+              use code to intelligently assist users, making it rather easy for
+              beginners to get started and experts to get the ball rolling.
             </p>
             <br />
             <p className="text-2xl">
