@@ -1,4 +1,6 @@
 import { useState } from "react";
+import personalWebsiteImage from "../assets/personal_website_image.png";
+import freshenImage from "../assets/freshen_image.png";
 
 export default function Portfolio() {
   const [currentProjectActive, setCurrentProjectActive] = useState("freshen");
@@ -57,7 +59,7 @@ export default function Portfolio() {
           <div
             className={currentProjectActive != "freshen" ? "hidden" : "active"}
           >
-            <img src="" alt="" className="border-4 border-black h-[250px]" />
+            <img src={freshenImage} alt="" className="h-[250px]" />
             <br />
             <p className="text-2xl">
               "freshen" is a Yelp-like assistant that helps users find reputable
@@ -92,7 +94,7 @@ export default function Portfolio() {
               currentProjectActive != "second_project" ? "hidden" : "active"
             }
           >
-            <img src="" alt="" className="border-4 border-black h-[250px]" />
+            <img src={personalWebsiteImage} alt="" className="h-[250px]" />
             <br />
             <p className="text-2xl">
               "klayclarke.com" is meant to be both a portfolio and personal
