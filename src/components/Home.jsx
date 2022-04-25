@@ -10,8 +10,8 @@ export default function Home() {
           Full Stack Developer
         </h2>
         <p className="text-2xl text-[#8289a0] py-4 max-w-[1000px]">
-          Klay is a MERN developer who enjoys learning, trying, and failing
-          until he succeeds. When not debugging code, Klay is likely producing
+          Klay is a web developer who enjoys learning, trying, and failing until
+          he succeeds. When not debugging code, Klay is likely producing
           horrible music (growth is gradual). Currently focused on building web
           applications, he one day hopes to contribute to the software that make
           modern music production possible.
