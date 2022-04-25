@@ -14,3 +14,19 @@
     @apply cursor-pointer;
   }
 }
+
+div[name="about"] a.music-production-software-links {
+  background-color: orange;
+}
+
+div[name="about"] a.music-production-software-links:hover {
+  text-decoration: underline;
+}
+
+div[name="about"] a.data-science-software-links {
+  background-color: red;
+}
+
+div[name="about"] a.data-science-software-links:hover {
+  text-decoration: underline;
+}
