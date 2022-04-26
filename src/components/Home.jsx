@@ -7,8 +7,8 @@ export default function Home() {
       className="relative w-full min-h-screen md:h-screen pt-48 md:pt-0n bg-[#0a192f]"
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <h1 className="text-4xl md:text-7xl font-bold text-[#ccd6f6]">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full fade-in-right">
+        <h1 className="text-4xl md:text-7xl font-bold text-[#ccd6f6] name-logo max-w-fit fade-in-right">
           Klay Clarke
         </h1>
         <h2 className="text-3xl md:text-7xl font-bold text-[#8289a0]">
@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <div>
           <Link to="portfolio" smooth={true} duration={2000}>
-            <button className="text-white border-2 px-10 py-3 my-3 hover:bg-white hover:border-white hover:text-black">
+            <button className="text-white border-2 px-10 py-3 my-3 hover:bg-white hover:border-white hover:text-black slow-fade">
               View Portfolio
             </button>
           </Link>
