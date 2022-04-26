@@ -20,12 +20,20 @@
 }
 
 nav {
-  transition: 3s ease;
+  transition: 0.5s ease;
+}
+
+.name-logo {
+  background-color: lightskyblue;
+  color: white;
+  padding: 10px;
 }
 
 /* styles for about component */
 div[name="about"] a.music-production-software-links {
   background-color: orange;
+  color: white;
+
   padding: 5px;
 }
 
@@ -35,6 +43,8 @@ div[name="about"] a.music-production-software-links:hover {
 
 div[name="about"] a.data-science-software-links {
   background-color: red;
+  color: white;
+
   padding: 5px;
 }
 
@@ -48,7 +58,8 @@ div[name="portfolio"] p.project-toggle {
 }
 
 div[name="portfolio"] p.project-toggle.active {
-  background-color: greenyellow;
+  background-color: pink;
+  color: white;
 }
 
 div[name="portfolio"] a.project-links {
@@ -56,5 +67,97 @@ div[name="portfolio"] a.project-links {
 }
 
 div[name="portfolio"] a.project-links:hover {
-  background-color: greenyellow;
+  background-color: pink;
+  color: white;
+}
+
+/* keyframes below */
+
+.fade-in-right {
+  -webkit-animation-name: fadeInRight;
+  -webkit-animation-duration: 2s;
+  animation-name: fadeInRight;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-top {
+  -webkit-animation-name: fadeInTop;
+  -webkit-animation-duration: 1s;
+  animation-name: fadeInTop;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slow-fade {
+  -webkit-animation-name: slowFade;
+  -webkit-animation-duration: 15s;
+  animation-name: slowFade;
+  animation-duration: 15s;
+}
+
+@-webkit-keyframes slowFade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slowFade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
