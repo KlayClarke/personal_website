@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white">
+    <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white z-10">
       <div>
         <Link
           to="home"
@@ -42,7 +42,7 @@ export default function Navbar() {
             Portfolio
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="experience"
             smooth={true}
@@ -51,7 +51,7 @@ export default function Navbar() {
           >
             Experience
           </Link>
-        </li>
+        </li> */}
       </ul>
       {/* Hamburger Icon */}
       <ul className="md:hidden z-10">
@@ -97,7 +97,7 @@ export default function Navbar() {
               Portfolio
             </Link>
           </li>
-          <li className="py-6 text-4xl">
+          {/* <li className="py-6 text-4xl">
             <Link
               to="experience"
               smooth={true}
@@ -106,7 +106,7 @@ export default function Navbar() {
             >
               Experience
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
