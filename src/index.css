@@ -19,6 +19,10 @@
   }
 }
 
+nav {
+  transition: 3s ease;
+}
+
 /* styles for about component */
 div[name="about"] a.music-production-software-links {
   background-color: orange;
