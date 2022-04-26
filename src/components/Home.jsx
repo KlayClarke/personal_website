@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div
       name="home"
-      className="relative w-full md:h-screen pt-48 md:pt-0n bg-[#0a192f]"
+      className="relative w-full min-h-screen pt-48 md:pt-0n bg-[#0a192f]"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
