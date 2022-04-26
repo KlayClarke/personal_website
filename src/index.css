@@ -14,7 +14,6 @@
     @apply cursor-pointer;
   }
 
-  div[name="portfolio"] p.project-toggle.active,
   .project-links {
     @apply border-2 border-black;
   }
@@ -45,7 +44,7 @@ div[name="portfolio"] p.project-toggle {
 }
 
 div[name="portfolio"] p.project-toggle.active {
-  background-color: lightblue;
+  background-color: greenyellow;
 }
 
 div[name="portfolio"] a.project-links {
@@ -53,5 +52,5 @@ div[name="portfolio"] a.project-links {
 }
 
 div[name="portfolio"] a.project-links:hover {
-  background-color: lightblue;
+  background-color: greenyellow;
 }
