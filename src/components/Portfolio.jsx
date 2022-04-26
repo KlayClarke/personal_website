@@ -26,7 +26,7 @@ export default function Portfolio() {
           <div>
             <p
               id="freshen"
-              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
                 currentProjectActive == "freshen" ? "active" : ""
               }`}
               onClick={handleClick}
@@ -35,7 +35,7 @@ export default function Portfolio() {
             </p>
             <p
               id="second_project"
-              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
                 currentProjectActive == "second_project" ? "active" : ""
               }`}
               onClick={handleClick}
@@ -44,7 +44,7 @@ export default function Portfolio() {
             </p>
             <p
               id="third_project"
-              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
                 currentProjectActive == "third_project" ? "active" : ""
               }`}
               onClick={handleClick}
@@ -53,7 +53,7 @@ export default function Portfolio() {
             </p>
             <p
               id="fourth_project"
-              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
                 currentProjectActive == "fourth_project" ? "active" : ""
               }`}
               onClick={handleClick}
