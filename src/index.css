@@ -24,7 +24,7 @@ nav {
 }
 
 .name-logo {
-  background-color: lightskyblue;
+  background-color: skyblue;
   color: white;
   padding: 10px;
 }
@@ -58,7 +58,7 @@ div[name="portfolio"] p.project-toggle {
 }
 
 div[name="portfolio"] p.project-toggle.active {
-  background-color: pink;
+  background-color: green;
   color: white;
 }
 
@@ -67,7 +67,7 @@ div[name="portfolio"] a.project-links {
 }
 
 div[name="portfolio"] a.project-links:hover {
-  background-color: pink;
+  background-color: green;
   color: white;
 }
 
