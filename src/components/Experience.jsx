@@ -4,40 +4,31 @@ export default function Experience() {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-4">
           <div className="pb-8">
-            <p className="text-4xl font-bold inline">Experience</p>
+            <p className="text-4xl font-bold inline">Work Experience</p>
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full px-4 grid lg:grid-cols-2 gap-4">
-          <div>
-            <p className="text-4xl">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              facere dignissimos voluptatem laudantium labore dolorum,
-              perspiciatis obcaecati debitis vero minus suscipit ipsa porro
-              dolores, aut sint sunt dicta iure excepturi.
-            </p>
-          </div>
-          <div>
-            <p className="text-2xl">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ut
-              quod, quos itaque temporibus reiciendis saepe, corporis eveniet
-              exercitationem vero rerum perferendis mollitia laudantium dolorum
-              sed animi, earum distinctio sint.
-            </p>
-            <br />
-            <p className="text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              aliquid, sint inventore minima illum omnis, aperiam deleniti
-              accusamus dignissimos laboriosam temporibus et praesentium
-              explicabo doloribus soluta quis. Voluptas, reiciendis corrupti.
-            </p>
-            <br />
-            <p className="text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui error
-              facere commodi modi harum odio cumque debitis nemo non vero a
-              porro, laudantium molestias animi! Ipsum qui molestiae rerum a.
-            </p>
-          </div>
+        <div className="max-w-[1000px] w-full px-4">
+          <table className="border-2">
+            <tr className="border-b-2">
+              <td className=" relative w-[75%] min-w-[50%]">
+                March 2019 - May 2021
+              </td>
+              <td className=" relative w-[75%] min-w-[50%]">
+                University of Connecticut, Department of Sociology [Student
+                Research Review Assistant for Dr. Jeremy Pais]
+              </td>
+            </tr>
+            <tr>
+              <td className=" relative w-[75%] min-w-[50%]">
+                July 2018 - Aug 2021
+              </td>
+              <td className=" relative w-[75%] min-w-[50%]">
+                Hartford Hospital, Hartford CT [Food and Nutrition Service
+                Associate]
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
