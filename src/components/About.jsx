@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <div name="about" className="w-full h-screen bg-white text-black">
+    <div
+      name="about"
+      className="relative w-full md:h-screen pt-48 md:pt-0  bg-white text-black"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-4">
           <div className="pb-8">
@@ -15,7 +18,7 @@ export default function About() {
             </p>
           </div>
           <div>
-            <p className="text-2xl">
+            <p className="text-xl md:text-2xl">
               While in college, I began producing music - both as a means of
               escape and creative expression. The learning curve was steep, but
               music production software such as{" "}
@@ -38,7 +41,7 @@ export default function About() {
               beginners to get started and experts to get the ball rolling.
             </p>
             <br />
-            <p className="text-2xl">
+            <p className="text-xl md:text-2xl">
               I'd also fell in love with{" "}
               <a
                 href="https://www.stata.com/"
@@ -60,7 +63,7 @@ export default function About() {
               Department.
             </p>
             <br />
-            <p className="text-2xl">
+            <p className="text-xl md:text-2xl">
               After graduation, I decided to learn more about (1) how these
               tools worked and (2) how teams of engineers collaborated to build
               such powerful software. I would soon find myself learning (and

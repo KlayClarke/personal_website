@@ -9,11 +9,13 @@ export default function Portfolio() {
   };
 
   return (
-    <div name="portfolio" className="w-full h-screen">
+    <div name="portfolio" className="relative w-full md:h-screen pt-48 md:pt-0">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-4">
           <div className="pb-8">
-            <p className="text-4xl items-end font-bold inline">Portfolio</p>
+            <p className="text-2xl md:text-4xl items-end font-bold inline">
+              Portfolio
+            </p>
           </div>
           <div></div>
         </div>
@@ -21,7 +23,7 @@ export default function Portfolio() {
           <div>
             <p
               id="freshen"
-              className={`project-toggle text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
                 currentProjectActive == "freshen" ? "active" : ""
               }`}
               onClick={handleClick}
@@ -30,7 +32,7 @@ export default function Portfolio() {
             </p>
             <p
               id="second_project"
-              className={`project-toggle text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
                 currentProjectActive == "second_project" ? "active" : ""
               }`}
               onClick={handleClick}
@@ -39,7 +41,7 @@ export default function Portfolio() {
             </p>
             <p
               id="third_project"
-              className={`project-toggle text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
                 currentProjectActive == "third_project" ? "active" : ""
               }`}
               onClick={handleClick}
@@ -48,7 +50,7 @@ export default function Portfolio() {
             </p>
             <p
               id="fourth_project"
-              className={`project-toggle text-4xl cursor-pointer hover:underline ${
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline ${
                 currentProjectActive == "fourth_project" ? "active" : ""
               }`}
               onClick={handleClick}
@@ -61,14 +63,16 @@ export default function Portfolio() {
           >
             <img src={freshenImage} alt="" className="h-[250px]" />
             <br />
-            <p className="text-2xl">
+            <p className="text-xl md:text-2xl">
               "freshen" is a Yelp-like assistant that helps users find reputable
               and trustworthy hairstylists across the tri-state area. Users who
               own hair salons and barbershops can also add their own shop to our
               database, making it available to others.
             </p>
             <br />
-            <p className="text-2xl">Created using MongoDB, Express, Heroku</p>
+            <p className="text-xl md:text-2xl">
+              Created using MongoDB, Express, Heroku
+            </p>
             <br />
             <div className="flex">
               <a
@@ -96,13 +100,13 @@ export default function Portfolio() {
           >
             <img src={personalWebsiteImage} alt="" className="h-[250px]" />
             <br />
-            <p className="text-2xl">
+            <p className="text-xl md:text-2xl">
               "klayclarke.com" is meant to be both a portfolio and personal
               website. This site allowed me to gain comfortability using a CSS
               framework, while also strengthening my ability to work with React.
             </p>
             <br />
-            <p className="text-2xl">
+            <p className="text-xl md:text-2xl">
               Created using React, Tailwind CSS, Vercel
             </p>
             <br />
@@ -121,14 +125,14 @@ export default function Portfolio() {
               currentProjectActive != "third_project" ? "hidden" : "active"
             }
           >
-            <p className="text-2xl">third_project coming soon</p>
+            <p className="text-xl md:text-2xl">third_project coming soon</p>
           </div>
           <div
             className={
               currentProjectActive != "fourth_project" ? "hidden" : "active"
             }
           >
-            <p className="text-2xl">fourth_project coming soon</p>
+            <p className="text-xl md:text-2xl">fourth_project coming soon</p>
           </div>
         </div>
       </div>
