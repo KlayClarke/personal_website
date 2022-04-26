@@ -18,9 +18,9 @@ export default function Navbar() {
     <nav
       className={`${
         scrollPosition > 500
-          ? "bg-white text-[#0a192f] border-b-[1px] border-[lightgray]"
+          ? "bg-white text-[#0a192f] border-b-[1px] border-[lightgray] fade-in-top"
           : "bg-[#0a192f] text-white"
-      } fixed w-full h-[80px] flex justify-between items-center px-4 z-10`}
+      } fixed w-full h-[80px] flex justify-between items-center px-4 z-10 fade-in-right`}
     >
       <div>
         <Link
