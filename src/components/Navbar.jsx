@@ -15,7 +15,13 @@ export default function Navbar() {
   console.log(scrollPosition);
 
   return (
-    <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white z-10">
+    <nav
+      className={`${
+        scrollPosition > 500
+          ? "bg-white text-[#0a192f] border-b-[1px] border-[lightgray]"
+          : "bg-[#0a192f] text-white"
+      } fixed w-full h-[80px] flex justify-between items-center px-4 z-10`}
+    >
       <div>
         <Link
           to="home"
@@ -83,11 +89,11 @@ export default function Navbar() {
         }
       >
         <ul>
-          <li className="py-6 text-4xl">
+          {/* <li className="py-6 text-4xl">
             <Link to="home" smooth={true} duration={1000} onClick={handleClick}>
               Home
             </Link>
-          </li>
+          </li> */}
           <li className="py-6 text-4xl">
             <Link
               to="about"
