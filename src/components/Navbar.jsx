@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import useScrollPosition from "../hooks/useScrollPosition";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -8,6 +9,10 @@ export default function Navbar() {
   const handleClick = () => {
     setNav(!nav);
   };
+
+  const scrollPosition = useScrollPosition();
+
+  console.log(scrollPosition);
 
   return (
     <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white z-10">
@@ -18,7 +23,13 @@ export default function Navbar() {
           duration={1000}
           className="cursor-pointer"
         >
-          <h1 className="text-[35px] font-bold name-logo">Klay Clarke</h1>
+          <h1
+            className={`${
+              scrollPosition < 450 ? "hidden" : ""
+            } text-xl md:text-[35px] font-bold name-logo`}
+          >
+            Klay Clarke
+          </h1>
         </Link>
       </div>
       <ul className="hidden md:flex">
