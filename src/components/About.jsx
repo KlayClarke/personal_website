@@ -11,7 +11,7 @@ export default function About() {
         <div className="max-w-[1000px] w-full px-4 grid lg:grid-cols-2 gap-4">
           <div>
             <p className="text-4xl">
-              My technological interests derived somewhat unconventionally:
+              My technological interests developed somewhat unconventionally:
             </p>
           </div>
           <div>
