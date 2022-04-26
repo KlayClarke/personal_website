@@ -73,22 +73,37 @@ export default function Navbar() {
       >
         <ul>
           <li className="py-6 text-4xl">
-            <Link to="home" smooth={true} duration={1000}>
+            <Link to="home" smooth={true} duration={1000} onClick={handleClick}>
               Home
             </Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link to="home" smooth={true} duration={1000}>
+            <Link
+              to="about"
+              smooth={true}
+              duration={1000}
+              onClick={handleClick}
+            >
               About
             </Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link to="home" smooth={true} duration={1000}>
+            <Link
+              to="portfolio"
+              smooth={true}
+              duration={1000}
+              onClick={handleClick}
+            >
               Portfolio
             </Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link to="home" smooth={true} duration={1000}>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={1000}
+              onClick={handleClick}
+            >
               Experience
             </Link>
           </li>
