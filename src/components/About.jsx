@@ -2,9 +2,9 @@ export default function About() {
   return (
     <div
       name="about"
-      className="relative w-full md:h-screen pt-48 md:pt-0  bg-white text-black"
+      className="relative w-full pt-48 md:pt-0  bg-white text-black"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <div className="flex flex-col justify-center items-center w-full min-h-[800px] md:h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-4">
           <div className="pb-8">
             <p className="text-2xl md:text-4xl font-bold inline">About</p>
