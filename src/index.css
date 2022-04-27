@@ -29,10 +29,7 @@ nav {
 
 /* styles for about component */
 div[name="about"] a.music-production-software-links {
-  background-color: orange;
-  color: white;
-
-  padding: 5px;
+  color: orange;
 }
 
 div[name="about"] a.music-production-software-links:hover {
@@ -40,10 +37,7 @@ div[name="about"] a.music-production-software-links:hover {
 }
 
 div[name="about"] a.data-science-software-links {
-  background-color: red;
-  color: white;
-
-  padding: 5px;
+  color: red;
 }
 
 div[name="about"] a.data-science-software-links:hover {
