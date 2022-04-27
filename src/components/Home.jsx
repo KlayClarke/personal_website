@@ -12,13 +12,13 @@ export default function Home() {
           Klay Clarke
         </h1>
         <h2 className="text-3xl md:text-7xl font-bold text-[#8289a0]">
-          Full Stack Developer
+          Web Developer
         </h2>
         <p className="text-1xl text-[#8289a0] py-4 max-w-[750px]">
-          Klay is a web developer who enjoys learning, trying, and failing until
-          he succeeds. Currently focused on building web applications, he one
-          day hopes to contribute to the software that make modern music
-          production possible.
+          Klay is a MERN developer who embraces the cycle of learning, trying,
+          and failing until he succeeds. Currently focused on building web
+          applications, he one day hopes to contribute to the software that make
+          modern music production possible.
         </p>
         <div>
           <Link to="portfolio" smooth={true} duration={2000}>
