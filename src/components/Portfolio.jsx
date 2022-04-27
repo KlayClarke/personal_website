@@ -104,9 +104,9 @@ export default function Portfolio() {
             <img src={personalWebsiteImage} alt="" className="h-[250px]" />
             <br />
             <p className="text-xl md:text-2xl">
-              "klayclarke.com" is meant to be both a portfolio and personal
-              website. This site allowed me to gain comfortability using a CSS
-              framework, while also strengthening my ability to work with React.
+              "klayclarke.com" is both a portfolio and personal website. This
+              project allowed me to gain confidence using a CSS framework, while
+              also strengthening my React skills.
             </p>
             <br />
             <p className="text-xl md:text-2xl">
