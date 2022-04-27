@@ -136,20 +136,12 @@ export default function Portfolio() {
             </p>
             <br />
             <div className="flex">
-              <a
-                href="https://github.com/KlayClarke/freshenv2"
-                target={"_blank"}
-                className="project-links"
-              >
+              <a href="#" target={""} className="project-links">
                 View Code On Github
               </a>
               <br />
               <br />
-              <a
-                href="https://thawing-reaches-97496.herokuapp.com/"
-                target={"_blank"}
-                className="project-links ml-4"
-              >
+              <a href="#" target={""} className="project-links ml-4">
                 View Site
               </a>
             </div>
@@ -170,20 +162,12 @@ export default function Portfolio() {
             </p>
             <br />
             <div className="flex">
-              <a
-                href="https://github.com/KlayClarke/freshenv2"
-                target={"_blank"}
-                className="project-links"
-              >
+              <a href="#" target={""} className="project-links">
                 View Code On Github
               </a>
               <br />
               <br />
-              <a
-                href="https://thawing-reaches-97496.herokuapp.com/"
-                target={"_blank"}
-                className="project-links ml-4"
-              >
+              <a href="#" target={""} className="project-links ml-4">
                 View Site
               </a>
             </div>
