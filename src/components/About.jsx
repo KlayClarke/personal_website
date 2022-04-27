@@ -20,7 +20,7 @@ export default function About() {
           <div>
             <p className="text-xl md:text-2xl">
               While in college, I began producing music. The learning curve was
-              steep, but my preferred production software -{" "}
+              steep, but my preferred applications -{" "}
               <a
                 href="https://www.ableton.com/en/"
                 target={"_blank"}
@@ -36,9 +36,8 @@ export default function About() {
               >
                 Logic Pro X
               </a>{" "}
-              - use code to intelligently assist their users, making it easy for
-              beginners to get started and for experienced producers to get the
-              ball rolling.
+              - intelligently assist users, making it easy for beginners to get
+              started and for experienced producers to get the ball rolling.
             </p>
             <br />
             <p className="text-xl md:text-2xl">
