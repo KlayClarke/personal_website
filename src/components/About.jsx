@@ -19,9 +19,8 @@ export default function About() {
           </div>
           <div>
             <p className="text-xl md:text-2xl">
-              While in college, I began producing music - both as a means of
-              escape and creative expression. The learning curve was steep, but
-              music production software such as{" "}
+              While in college, I began producing music. The learning curve was
+              steep, but my preferred production software -{" "}
               <a
                 href="https://www.ableton.com/en/"
                 target={"_blank"}
@@ -37,8 +36,9 @@ export default function About() {
               >
                 Logic Pro X
               </a>{" "}
-              use code to intelligently assist users, making it rather easy for
-              beginners to get started and experts to get the ball rolling.
+              - use code to intelligently assist their users, making it easy for
+              beginners to get started and for experienced producers to get the
+              ball rolling.
             </p>
             <br />
             <p className="text-xl md:text-2xl">
