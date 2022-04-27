@@ -49,7 +49,7 @@ export default function Portfolio() {
               }`}
               onClick={handleClick}
             >
-              third_project
+              third_project [coming soon]
             </p>
             <p
               id="fourth_project"
@@ -58,7 +58,7 @@ export default function Portfolio() {
               }`}
               onClick={handleClick}
             >
-              fourth_project
+              fourth_project [coming soon]
             </p>
           </div>
           <div
@@ -128,14 +128,68 @@ export default function Portfolio() {
               currentProjectActive != "third_project" ? "hidden" : "active"
             }
           >
-            <p className="text-xl md:text-2xl">third_project coming soon</p>
+            <img src={""} alt="" className="h-[250px] border-2 border-black" />
+            <br />
+            <p className="text-xl md:text-2xl">
+              third_project description here
+            </p>
+            <br />
+            <p className="text-xl md:text-2xl">
+              Created using [third_project language, framework, tools used]
+            </p>
+            <br />
+            <div className="flex">
+              <a
+                href="https://github.com/KlayClarke/freshenv2"
+                target={"_blank"}
+                className="project-links"
+              >
+                View Code On Github
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://thawing-reaches-97496.herokuapp.com/"
+                target={"_blank"}
+                className="project-links ml-4"
+              >
+                View Site
+              </a>
+            </div>
           </div>
           <div
             className={
               currentProjectActive != "fourth_project" ? "hidden" : "active"
             }
           >
-            <p className="text-xl md:text-2xl">fourth_project coming soon</p>
+            <img src={""} alt="" className="h-[250px] border-2 border-black" />
+            <br />
+            <p className="text-xl md:text-2xl">
+              fourth_project description here
+            </p>
+            <br />
+            <p className="text-xl md:text-2xl">
+              Created using [fourth_project language, framework, tools used]
+            </p>
+            <br />
+            <div className="flex">
+              <a
+                href="https://github.com/KlayClarke/freshenv2"
+                target={"_blank"}
+                className="project-links"
+              >
+                View Code On Github
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://thawing-reaches-97496.herokuapp.com/"
+                target={"_blank"}
+                className="project-links ml-4"
+              >
+                View Site
+              </a>
+            </div>
           </div>
         </div>
       </div>
