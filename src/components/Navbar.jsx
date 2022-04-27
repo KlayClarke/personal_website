@@ -32,7 +32,7 @@ export default function Navbar() {
           <h1
             className={`${
               scrollPosition < 450 ? "hidden" : ""
-            } text-xl md:text-[35px] font-bold name-logo`}
+            } text-xl md:text-[25px] font-bold name-logo`}
           >
             Klay Clarke
           </h1>
