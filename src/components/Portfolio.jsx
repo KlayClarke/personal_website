@@ -1,9 +1,11 @@
 import { useState } from "react";
 import personalWebsiteImage from "../assets/personal_website_image.png";
 import freshenImage from "../assets/freshen_image.png";
+import freshenv3Image from "../assets/freshenv3.png";
 
 export default function Portfolio() {
-  const [currentProjectActive, setCurrentProjectActive] = useState("freshen");
+  const [currentProjectActive, setCurrentProjectActive] =
+    useState("freshen_v3");
   const handleClick = (e) => {
     setCurrentProjectActive(e.target.id);
   };
@@ -22,13 +24,31 @@ export default function Portfolio() {
         <div className="max-w-[1000px] min-h-[600px] w-full px-4 grid md:grid-cols-2 gap-4">
           <div>
             <p
+              id="third_project"
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
+                currentProjectActive == "third_project" ? "active" : ""
+              }`}
+              onClick={handleClick}
+            >
+              freshen.ios [coming soon]
+            </p>
+            <p
+              id="freshen_v3"
+              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
+                currentProjectActive == "freshen_v3" ? "active" : ""
+              }`}
+              onClick={handleClick}
+            >
+              freshen.v3
+            </p>
+            <p
               id="freshen"
               className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
                 currentProjectActive == "freshen" ? "active" : ""
               }`}
               onClick={handleClick}
             >
-              freshen
+              freshen.v2
             </p>
             <p
               id="second_project"
@@ -38,24 +58,6 @@ export default function Portfolio() {
               onClick={handleClick}
             >
               klayclarke.com
-            </p>
-            <p
-              id="third_project"
-              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
-                currentProjectActive == "third_project" ? "active" : ""
-              }`}
-              onClick={handleClick}
-            >
-              third_project [coming soon]
-            </p>
-            <p
-              id="fourth_project"
-              className={`project-toggle text-2xl md:text-4xl cursor-pointer hover:underline max-w-fit ${
-                currentProjectActive == "fourth_project" ? "active" : ""
-              }`}
-              onClick={handleClick}
-            >
-              fourth_project [coming soon]
             </p>
           </div>
           <div
@@ -71,7 +73,7 @@ export default function Portfolio() {
             </p>
             <br />
             <p className="text-xl md:text-2xl">
-              Created using MongoDB, Express, Heroku
+              Created using Express, MongoDB, Heroku
             </p>
             <br />
             <div className="flex">
@@ -127,47 +129,61 @@ export default function Portfolio() {
           >
             <img src={""} alt="" className="h-[250px] border-2 border-black" />
             <br />
-            <p className="text-xl md:text-2xl">
-              third_project description here
-            </p>
+            <p className="text-xl md:text-2xl">freshen.ios description here</p>
             <br />
             <p className="text-xl md:text-2xl">
-              Created using [third_project language, framework, tools used]
+              Created using [SwiftUI, MongoDB]
             </p>
             <br />
             <div className="flex">
-              <a href="#" target={""} className="project-links">
+              <a
+                href="https://github.com/KlayClarke/freshen_ios"
+                target={"_blank"}
+                className="project-links"
+              >
                 View Code On Github
               </a>
               <br />
               <br />
               <a href="#" target={""} className="project-links ml-4">
-                View Site
+                View Video Demo [Coming Soon]
               </a>
             </div>
           </div>
           <div
             className={
-              currentProjectActive != "fourth_project" ? "hidden" : "active"
+              currentProjectActive != "freshen_v3" ? "hidden" : "active"
             }
           >
-            <img src={""} alt="" className="h-[250px] border-2 border-black" />
+            <img
+              src={freshenv3Image}
+              alt="freshen version 3"
+              className="h-[250px] border-2"
+            />
             <br />
             <p className="text-xl md:text-2xl">
-              fourth_project description here
+              freshen version 3 description here
             </p>
             <br />
             <p className="text-xl md:text-2xl">
-              Created using [fourth_project language, framework, tools used]
+              Created using [NextJS, TailwindCSS, MongoDB (Prisma), Vercel]
             </p>
             <br />
             <div className="flex">
-              <a href="#" target={""} className="project-links">
+              <a
+                href="https://github.com/KlayClarke/freshenv3"
+                target={"_blank"}
+                className="project-links"
+              >
                 View Code On Github
               </a>
               <br />
               <br />
-              <a href="#" target={""} className="project-links ml-4">
+              <a
+                href="https://freshenv3.vercel.app/"
+                target={"_blank"}
+                className="project-links ml-4"
+              >
                 View Site
               </a>
             </div>
