@@ -2,6 +2,7 @@ import { useState } from "react";
 import personalWebsiteImage from "../assets/personal_website_image.png";
 import freshenImage from "../assets/freshen_image.png";
 import freshenv3Image from "../assets/freshenv3.png";
+import freshenv3mobileimage from "../assets/freshenv3mobile.jpeg";
 
 export default function Portfolio() {
   const [currentProjectActive, setCurrentProjectActive] =
@@ -73,7 +74,7 @@ export default function Portfolio() {
             </p>
             <br />
             <p className="text-xl md:text-2xl">
-              Created using Express, MongoDB, Heroku
+              Created in one month using Express, MongoDB, Heroku
             </p>
             <br />
             <div className="flex">
@@ -161,12 +162,18 @@ export default function Portfolio() {
               className="h-[250px] border-2"
             />
             <br />
+            <img
+              src={freshenv3mobileimage}
+              alt="freshen version 3 mobile"
+              className="h-[250px] border-2"
+            />
             <p className="text-xl md:text-2xl">
               freshen version 3 description here
             </p>
             <br />
             <p className="text-xl md:text-2xl">
-              Created using [NextJS, TailwindCSS, MongoDB (Prisma), Vercel]
+              Created in one week using [NextJS, TailwindCSS, MongoDB (Prisma),
+              Vercel]
             </p>
             <br />
             <div className="flex">
